@@ -2,6 +2,7 @@
   "name": "resume",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "author": {
     "email": "arnab.k@gmail.com",
     "name": "Arnab Karmakar",
