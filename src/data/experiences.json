@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Sr. Software Engineer",
+    "employer": "SoFi, UT",
+    "period": "2018-present",
+    "description": "Started here recently to lead the front end work for benefits projects"
+  },
+  {
+    "title": "Sr. Software Engineer",
+    "employer": "SpheraSolutions, UT",
+    "period": "2016-2018",
+    "description": "Building front end application using ReactJS, Redux, NodeJS, Webpack, SASS, jsPDF, XLSjs, PostCSS, ES6, Babel and all other good things in Front End. Helping team of 5 members to migrate a legacy application consisting of 150+ screens"
+  },
+  {
+    "title": "Sr. Software Engineer",
+    "employer": "IHS, UT",
+    "period": "2013-2016",
+    "description": "Building front end application using jQuery, JSF/Primefaces, Selenium, Weblogic, Maven, Java. Worked as expert advisor for JSF/Primefaces and jQuery. Converted manual deployment process to Jenkins CI"
+  },
+  {
+    "title": "Associate Programmer",
+    "employer": "LiquidHub, PA",
+    "period": "2012-2013",
+    "description": "Building front end and back end applications using jQuery, JSF/Facelets, Selenium, Jersey API, Spring, Jenkins, Drools, Java. Converted manual test cases to automated system. Was heavily involved in code review process."
+  },
+  {
+    "title": "Computer Programmer/Analyst",
+    "employer": "SourceInfotech, NJ",
+    "period": "2008-2011",
+    "description": "Building front end and back end application using Applet, JSF, JSP, Servlets, WAS, RAD, VB, Checkstyle, Javascript. This project required creating several JSF custom components which deals with internal lifecycle of JSF framework. Was also involved in developing REST based services"
+  },
+  {
+    "title": "Software Engineer",
+    "employer": "White Technologies Group, India",
+    "period": "2006-2008",
+    "description": "Built desktop application using Java Swing and back end in JEE middleware. Technologies used were Swing, EJB, Weblogic, Checkstyle, JUnit, XDocklet"
+  },
+  {
+    "title": "Software Engineer",
+    "employer": "CashEdge(Now Fiserv), India",
+    "period": "2005-2006",
+    "description": "Production support in financial/banking application. Had to deal with different technologies like JSP, EJB, Oracle, Weblogic, Ant, SSO, Servlet, Jaavascript, JSTL, Strust, SAX, DOm, SVN, Checkstyle, SQL. One of the tasks was to analyze SQL performance"
+  },
+  {
+    "title": "Software Engineer",
+    "employer": "CSC, India",
+    "period": "2004-2005",
+    "description": "Building end to end JEE application for healthcare sector using technologies like IBM Porlet, EJB, XML, XSLT, DB2 WAS, WPS, WADS, MQseris, Ant, Checkstyle, Rational XDE, Unit, XML Spy. Taking lead on describing how to do TDD based development. Developing POC & creating report on performance comparison of XML/XSLT Vs JSF based page rendering. Collaborating with architects to come up with the best architecture for the proposed requirement"
+  }
+]

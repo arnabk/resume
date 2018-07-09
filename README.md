@@ -1,7 +1,7 @@
 # Arnab Karmakar's resume
 
-# Commands to work in this project
+### Available commands
 
-  yarn start
-  yarn build
-  yarn test
+    yarn start
+    yarn build
+    yarn test

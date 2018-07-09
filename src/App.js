@@ -1,21 +1,36 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from 'react';
+import { Grid } from 'semantic-ui-react';
+import Header from './header';
+import Experience from './experience';
+import OpenSource from './opensource';
+import Skill from "./skills";
+import Education from './education';
+import Social from './socials';
+import experienceData from './data/experiences.json';
+import openSourceData from './data/opensources.json';
+import skillsData from './data/skills.json';
+import socialData from './data/socials.json';
+import educationData from './data/educations.json';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
-}
-
-export default App;
+export default () => (
+  <Fragment>
+    <Header />
+    <Grid columns={1}>
+      <Grid.Column>
+        <Experience data={experienceData} />
+      </Grid.Column>
+      <Grid.Column>
+        <OpenSource data={openSourceData} />
+      </Grid.Column>
+      <Grid.Column>
+        <Skill data={skillsData} />
+      </Grid.Column>
+      <Grid.Column>
+        <Education data={educationData} />
+      </Grid.Column>
+      <Grid.Column>
+        <Social data={socialData} />
+      </Grid.Column>
+    </Grid>
+  </Fragment>
+);

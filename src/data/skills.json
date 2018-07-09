@@ -1,0 +1,92 @@
+[
+  {
+    "name": "React",
+    "icon": "react",
+    "color": "red"
+  },
+  {
+    "name": "Redux",
+    "icon": "redux",
+    "color": "red"
+  },
+  {
+    "name": "ES6",
+    "icon": "es6",
+    "color": "red"
+  },
+  {
+    "name": "HTML",
+    "icon": "html5",
+    "color": "olive"
+  },
+  {
+    "name": "CSS",
+    "icon": "css3",
+    "color": "olive"
+  },
+  {
+    "name": "Java/JEE",
+    "icon": "java",
+    "color": "olive"
+  },
+  {
+    "name": "NodeJS",
+    "icon": "node",
+    "color": "orange"
+  },
+  {
+    "name": "ExpressJS",
+    "icon": "express",
+    "color": "orange"
+  },
+  {
+    "name": "PolymerJS",
+    "icon": "polymer",
+    "color": "olive"
+  },
+  {
+    "name": "JQuery UI",
+    "icon": "jqueryui",
+    "color": "orange"
+  },
+  {
+    "name": "JQuery",
+    "icon": "jquery",
+    "color": "red"
+  },
+  {
+    "name": "Webpack",
+    "icon": "webpack",
+    "color": "red"
+  },
+  {
+    "name": "SASS",
+    "icon": "sass",
+    "color": "orange"
+  },
+  {
+    "name": "Web services",
+    "icon": "web",
+    "color": "red"
+  },
+  {
+    "name": "Selenium",
+    "icon": "selenium",
+    "color": "olive"
+  },
+  {
+    "name": "Nightwatch",
+    "icon": "nightwatch",
+    "color": "red"
+  },
+  {
+    "name": "Jenkins",
+    "icon": "jenkins",
+    "color": "red"
+  },
+  {
+    "name": "Bamboo",
+    "icon": "bamboo",
+    "color": "olive"
+  }
+]

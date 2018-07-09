@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Github",
+    "link": "https://github.com/arnabk",
+    "icon": "github"
+  },
+  {
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/in/arnab-karmakar-4894131/",
+    "icon": "linkedin"
+  },
+  {
+    "name": "Stack overflow",
+    "link": "https://stackoverflow.com/users/1877108/arnab",
+    "icon": "stack overflow"
+  },
+  {
+    "name": "Medium",
+    "link": "https://medium.com/@arnab.k",
+    "icon": "medium"
+  }
+]
