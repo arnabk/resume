@@ -12,7 +12,7 @@ branches:
   only:
   - master
 before_install:
-- npm run install
+- npm install
 install: npm run build
 deploy:
   provider: pages

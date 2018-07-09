@@ -1,6 +1,6 @@
 import React from 'react';
 import { arrayOf, shape, string } from 'prop-types';
-import { Label, Segment, Container } from 'semantic-ui-react'
+import { Segment, Container } from 'semantic-ui-react'
 import CardTag, { MarginedLabel } from './card-tag';
 
 const OpenSource = ({ data }) => (
