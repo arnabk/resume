@@ -1,0 +1,86 @@
+.redux {
+  background-image: url(./icons/redux.svg);
+  width: 10px !important;
+  height: 10px !important;
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+}
+.es6 {
+  background-image: url(./icons/es6.svg);
+  width: 10px !important;
+  height: 10px !important;
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+}
+.graphql {
+  background-image: url(./icons/graphql.png);
+  width: 10px !important;
+  height: 10px !important;
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+}
+.java {
+  background-image: url(./icons/java.jpg);
+  width: 10px !important;
+  height: 10px !important;
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+  position: relative;
+  top: 2px;;
+}
+.express {
+  background-image: url(./icons/expressjs.png);
+  width: 10px !important;
+  height: 10px !important;
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+}
+.polymer {
+  background-image: url(./icons/polymerjs.png);
+  width: 10px !important;
+  height: 10px !important;
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+}
+.jquery {
+  background-image: url(./icons/jQ.png);
+  width: 10px !important;
+  height: 10px !important;
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+}
+.jqueryui {
+  background-image: url(./icons/jQui.png);
+  width: 10px !important;
+  height: 10px !important;
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+}
+.webpack {
+  background-image: url(./icons/webpack.svg);
+  width: 10px !important;
+  height: 10px !important;
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+}
+.selenium {
+  background-image: url(./icons/selenium.png);
+  width: 10px !important;
+  height: 10px !important;
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+}
+.nightwatch {
+  background-image: url(./icons/nightwatch.png);
+  width: 10px !important;
+  height: 10px !important;
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+}
+.bamboo {
+  background-image: url(./icons/bamboo.png);
+  width: 10px !important;
+  height: 10px !important;
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+}

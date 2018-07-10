@@ -2,91 +2,115 @@
   {
     "name": "React",
     "icon": "react",
-    "color": "red"
+    "color": "red",
+    "link": "https://reactjs.org/"
   },
   {
     "name": "Redux",
     "icon": "redux",
-    "color": "red"
+    "color": "red",
+    "link": "https://redux.js.org/"
   },
   {
     "name": "ES6",
     "icon": "es6",
-    "color": "red"
+    "color": "red",
+    "link": "https://www.ecma-international.org/ecma-262/6.0/"
+  },
+  {
+    "name": "GraphQL",
+    "icon": "graphql",
+    "color": "yellow",
+    "link": "https://graphql.org/"
   },
   {
     "name": "HTML",
     "icon": "html5",
-    "color": "olive"
+    "color": "olive",
+    "link": "https://www.w3.org/TR/html5/"
   },
   {
     "name": "CSS",
     "icon": "css3",
-    "color": "olive"
+    "color": "olive",
+    "link": "https://www.w3.org/Style/CSS/specs.en.html"
   },
   {
     "name": "Java/JEE",
     "icon": "java",
-    "color": "olive"
+    "color": "olive",
+    "link": "http://www.oracle.com/technetwork/java/javaee/overview/index.html"
   },
   {
     "name": "NodeJS",
     "icon": "node",
-    "color": "orange"
+    "color": "orange",
+    "link": "https://nodejs.org/"
   },
   {
     "name": "ExpressJS",
     "icon": "express",
-    "color": "orange"
+    "color": "orange",
+    "link": "https://expressjs.com/"
   },
   {
     "name": "PolymerJS",
     "icon": "polymer",
-    "color": "olive"
+    "color": "olive",
+    "link": "https://www.polymer-project.org/"
   },
   {
     "name": "JQuery UI",
     "icon": "jqueryui",
-    "color": "orange"
+    "color": "orange",
+    "link": "https://jqueryui.com/"
   },
   {
     "name": "JQuery",
     "icon": "jquery",
-    "color": "red"
+    "color": "red",
+    "link": "https://jquery.com/"
   },
   {
     "name": "Webpack",
     "icon": "webpack",
-    "color": "red"
+    "color": "red",
+    "link": "https://webpack.js.org/"
   },
   {
     "name": "SASS",
     "icon": "sass",
-    "color": "orange"
+    "color": "orange",
+    "link": "https://sass-lang.com/"
   },
   {
     "name": "Web services",
-    "icon": "web",
-    "color": "red"
+    "icon": "world",
+    "color": "red",
+    "link": "https://en.wikipedia.org/wiki/Web_service"
   },
   {
     "name": "Selenium",
     "icon": "selenium",
-    "color": "olive"
+    "color": "olive",
+    "link": "http://www.seleniumhq.org/"
   },
   {
     "name": "Nightwatch",
     "icon": "nightwatch",
-    "color": "red"
+    "color": "red",
+    "link": "http://nightwatchjs.org/"
   },
   {
     "name": "Jenkins",
     "icon": "jenkins",
-    "color": "red"
+    "color": "red",
+    "link": "https://jenkins.io/"
   },
   {
     "name": "Bamboo",
     "icon": "bamboo",
-    "color": "olive"
+    "color": "olive",
+    "link": "https://www.atlassian.com/software/bamboo"
   }
 ]

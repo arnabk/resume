@@ -2,7 +2,7 @@
   {
     "name": "webtrader",
     "link": "https://github.com/binary-com/webtrader",
-    "description": "This is a full trading application built using jQuery & jQuery UI. Some other javascript ecosystem tools used are RequireJS, Grunt & Bower. The application is completely hosted from gh-pages. Highcharts is used for creating dynamic charts."
+    "description": "This is a full trading application built using jQuery, jQuery UI & Highcharts"
   },
   {
     "name": "stratrum-client",

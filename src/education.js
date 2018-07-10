@@ -14,7 +14,7 @@ const Education = ({ data }) => (
         <Grid.Column key={m.degree}>
           <Label
             as='a'
-            color='gray'
+            color='grey'
             tag
             onClick={() => window.location.href = m.link}
           >

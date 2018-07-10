@@ -1,22 +1,29 @@
 import React from 'react';
 import { arrayOf, shape, string } from 'prop-types';
-import { Segment, Container } from 'semantic-ui-react'
+import { Segment, Container, Icon } from 'semantic-ui-react'
 import CardTag, { MarginedLabel } from './card-tag';
 
-const OpenSource = ({ data }) => (
+const Skills = ({ data }) => (
   <Container>
     <Segment raised>
       <CardTag as='span' color='teal' ribbon>
         Skills
       </CardTag>
       {data.map(m => (
-        <MarginedLabel as='a' color={m.color} content={m.name} icon={m.icon} />
+        <MarginedLabel
+          key={m.name}
+          as='a'
+          color={m.color}
+          content={m.name}
+          icon={<Icon className={m.icon} />}
+          onClick={() => window.location.href = m.link}
+        />
       ))}
     </Segment>
   </Container>
 );
 
-OpenSource.propTypes = {
+Skills.propTypes = {
   data: arrayOf(shape({
     name: string,
     color: string,
@@ -24,4 +31,4 @@ OpenSource.propTypes = {
   })).isRequired,
 };
 
-export default OpenSource;
+export default Skills;

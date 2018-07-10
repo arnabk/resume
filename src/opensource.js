@@ -1,7 +1,13 @@
 import React from 'react';
 import { arrayOf, shape, string } from 'prop-types';
-import { Grid, Label, Segment, Container } from 'semantic-ui-react'
+import { Label, Segment, Container } from 'semantic-ui-react'
+import styled from 'styled-components';
 import CardTag from './card-tag';
+
+const MarginedLabelWrapper = styled.div`
+  margin-top: 5px;
+  margin-bottom: 5px;
+`;
 
 const OpenSource = ({ data }) => (
   <Container>
@@ -9,18 +15,14 @@ const OpenSource = ({ data }) => (
       <CardTag as='span' color='teal' ribbon>
         Open Source Projects
       </CardTag>
-      <Grid stackable columns={2}>
       {data.map(m => (
-        <Grid.Column key={m.name}>
-          <Segment raised>
-            <Label as='a' color='green' tag onClick={() => window.location.href = m.link}>
-              {m.name}
-            </Label>
-            <span>{m.description}</span>
-          </Segment>
-        </Grid.Column>
+        <MarginedLabelWrapper key={m.name}>
+          <Label as='a' color='green' tag onClick={() => window.location.href = m.link}>
+            {m.name}
+          </Label>
+          <span>{m.description}</span>
+        </MarginedLabelWrapper>
       ))}
-      </Grid>
     </Segment>
   </Container>
 );

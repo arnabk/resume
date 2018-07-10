@@ -11,8 +11,9 @@ const Social = ({ data }) => (
       </Label>
       {data.map(m => (
         <MarginedLabel
+          key={m.name}
           as='a'
-          color='gray'
+          color='grey'
           content={m.name}
           icon={m.icon}
           onClick={() => window.location.href = m.link}
