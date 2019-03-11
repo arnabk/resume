@@ -11,4 +11,5 @@ const gitPassword = process.env.GITHUB_TOKEN;
   await exec('git add --all');
   await exec('git commit -m "Autocommit by Jenkins - Updating gh-pages"');
   await exec('git push');
+  await exec('rm -fR resume');
 })();
