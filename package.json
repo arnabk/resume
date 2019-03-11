@@ -21,6 +21,13 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom"
+    "test": "react-scripts test --env=jsdom",
+    "convert2pdf": "node scripts/web2pdfconvert.js && mv arnabk-github-io-resume-.pdf ./build",
+    "gh-pages": "node scripts/dploy-gh-pages.js",
+    "release": "npm run build && npm run convert2pdf && npm run gh-pages"
+  },
+  "devDependencies": {
+    "convertapi": "^1.2.0",
+    "puppeteer": "^1.13.0"
   }
 }
