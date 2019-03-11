@@ -22,10 +22,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "convert2pdf": "python3 -m pip install pdfkit && python3 scripts/web2pdfconvert.py && mv resume.pdf ./build/",
-    "gh-pages": "node scripts/deploy-gh-pages.js",
-    "release-html": "npm run build && npm run gh-pages",
-    "release-pdf": "npm run convert2pdf && npm run gh-pages"
+    "convert2pdf": "python3 -m pip install pdfkit && python3 scripts/web2pdfconvert.py"
   },
   "devDependencies": {
     "convertapi": "^1.2.0",
