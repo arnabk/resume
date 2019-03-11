@@ -1,7 +1,7 @@
 const { promisify } = require('util');
 const exec = promisify(require('child_process').exec);
 
-const gitUsername = 'arnab.k@gmail.com';
+const gitUsername = 'arnabk';
 const gitPassword = process.env.GITHUB_TOKEN;
 
 (async () => {
