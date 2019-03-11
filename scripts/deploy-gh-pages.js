@@ -9,6 +9,8 @@ const gitPassword = process.env.GITHUB_TOKEN;
   await exec(`git clone -b gh-pages https://${gitUsername}:${gitPassword}@github.com/arnabk/resume`);
   await exec("cp -R ./build/* resume/");
   await exec('git add --all');
+  await exec('git config user.email "arnab.k@gmail.com"');
+  await exec('git config user.name "@rnab"');
   await exec('git commit -m "Autocommit by Jenkins - Updating gh-pages"');
   await exec('git push');
   await exec('rm -fR resume');
