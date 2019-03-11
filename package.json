@@ -22,7 +22,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "convert2pdf": "node scripts/web2pdfconvert.js && mv arnabk-github-io-resume-.pdf ./build",
+    "convert2pdf": "node scripts/web2pdfconvert.js && mv arnabk-github-io-resume-.pdf ./build/resume.pdf",
     "gh-pages": "node scripts/dploy-gh-pages.js",
     "release": "npm run build && npm run convert2pdf && npm run gh-pages"
   },
