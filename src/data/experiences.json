@@ -1,9 +1,15 @@
 [
   {
+    "title": "Principal Software Engineer",
+    "employer": "Varo, UT",
+    "period": "2019-present",
+    "description": "Building front end and graphql micro-services using ReactJS, React Context, React Hooks, Redux, Thunk, apollo, ES6, jest, enzyme, formik, material-ui, typescript"
+  },
+  {
     "title": "Sr. Software Engineer",
     "employer": "SoFi, UT",
-    "period": "2018-present",
-    "description": "Building front end micro-services using ReactJS, React Context, React Hooks, Redux, Thunk, GraphQL (apollo client), ES6, Babel, Saga, jest, enzyme, reselect, formik, material-ui, typescript"
+    "period": "2018-2019",
+    "description": "Building front end applications using ReactJS, React Context, React Hooks, Redux, Thunk, GraphQL (apollo client), ES6, Babel, Saga, jest, enzyme, reselect, formik, material-ui, typescript"
   },
   {
     "title": "Sr. Software Engineer",
