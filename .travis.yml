@@ -11,7 +11,7 @@ language: python
 python: 3.6
 script:
   - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
-  - nvm use 10.16.0
+  - nvm install 10.16.0
   - npm i yarn -g
   - yarn
   - yarn build
