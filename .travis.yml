@@ -15,7 +15,7 @@ script:
   - npm i yarn -g
   - yarn
   - yarn build
-  - git clone -b --depth=1 gh-pages https://github.com/arnabk/resume
+  - git clone -b gh-pages https://github.com/arnabk/resume --depth=1
   - cp -R ./build/* resume/
   - echo "BUILD_NUMBER ${BUILD_NUMBER} - web" > resume/build.details
   - yarn convert2pdf
