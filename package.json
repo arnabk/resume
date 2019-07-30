@@ -22,7 +22,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "convert2pdf": "python3 -m pip install pdfkit && python3 scripts/web2pdfconvert.py"
+    "convert2pdf": "python3 scripts/web2pdfconvert.py"
   },
   "devDependencies": {
     "convertapi": "^1.2.0",
