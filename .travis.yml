@@ -15,9 +15,7 @@ addons:
       - python3-pip
 language: node_js
 node_js: "10.16.0"
-before_script:
-  - yarn build
-  - python3 -m pip install --upgrade --force-reinstall pip
+before_script: yarn build
 script:
   - git clone -b gh-pages https://github.com/arnabk/resume
   - cp -R ./build/* resume/
