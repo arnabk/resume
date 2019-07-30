@@ -1,0 +1,28 @@
+dist: trusty
+matrix:
+  include:
+    - language: node_js
+      node_js: "10.16.0"
+      script:
+        - git clone -b gh-pages https://arnabk:${GITHUB_TOKEN}@github.com/arnabk/resume
+        - cp -R ./build/* resume/
+        - cd resume
+        - echo "BUILD_NUMBER ${BUILD_NUMBER} - web" > build.details
+        - git add --all
+        - git config user.email "arnab.k@gmail.com"
+        - git config user.name "@rnab"
+        - git commit -m "Autocommit by TravisCI - Updating gh-pages"
+        - git push
+        - cd ..
+    - language: python
+      python: "3.6"
+      script:
+        - yarn convert2pdf
+        - mv resume.pdf resume/
+        - cd resume
+        - echo "BUILD_NUMBER ${BUILD_NUMBER} - pdf" >> build.details
+        - git add --all
+        - git commit -m "Autocommit by Jenkins - Updating gh-pages"
+        - git push
+        - cd ..
+        - rm -fR resume
