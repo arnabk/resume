@@ -1,1 +1,1 @@
-# Arnab Karmakar's resume
+# Arnab Karmakar's resume [![Build Status](https://travis-ci.org/arnabk/resume.svg?branch=master)](https://travis-ci.org/arnabk/resume)

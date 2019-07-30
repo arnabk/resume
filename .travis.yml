@@ -9,6 +9,7 @@ notifications:
     - arnab.k@gmail.com
 addons:
   apt:
+    update: true
     packages:
       - python3
 language: node_js
