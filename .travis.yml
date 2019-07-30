@@ -7,17 +7,15 @@ git:
 notifications:
   email:
     - arnab.k@gmail.com
-addons:
-  apt:
-    update: true
-    packages:
-      - python3
-      - python3-pip
-language: node_js
-node_js: "10.16.0"
-before_script: yarn build
+language: python
+python: 3.6
 script:
-  - git clone -b gh-pages https://github.com/arnabk/resume
+  - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+  - nvm use 10.16.0
+  - npm i yarn -g
+  - yarn
+  - yarn build
+  - git clone -b --depth=1 gh-pages https://github.com/arnabk/resume
   - cp -R ./build/* resume/
   - echo "BUILD_NUMBER ${BUILD_NUMBER} - web" > resume/build.details
   - yarn convert2pdf
