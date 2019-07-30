@@ -11,7 +11,8 @@ addons:
   apt:
     update: true
     packages:
-      - python3.6.3
+      - python3
+      - pip3
 language: node_js
 node_js: "10.16.0"
 before_script: yarn build
