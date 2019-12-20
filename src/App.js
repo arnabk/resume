@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Grid } from 'semantic-ui-react';
+import { Grid, Container } from 'semantic-ui-react';
 import Header from './header';
 import Experience from './experience';
 import OpenSource from './opensource';
@@ -13,7 +13,7 @@ import socialData from './data/socials.json';
 import educationData from './data/educations.json';
 
 export default () => (
-  <Fragment>
+  <Container fluid={true}>
     <Header />
     <Grid columns={1}>
       <Grid.Column>
@@ -32,5 +32,5 @@ export default () => (
         <Social data={socialData} />
       </Grid.Column>
     </Grid>
-  </Fragment>
+  </Container>
 );

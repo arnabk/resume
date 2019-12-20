@@ -9,7 +9,7 @@ const Experience = ({ data }) => (
       <CardTag as='span' color='teal' ribbon>
         Experience
       </CardTag>
-      <Grid stackable columns={2}>
+      <Grid stackable columns={1}>
       {data.map(m => (
         <Grid.Column key={m.employer}>
           <Segment raised>
