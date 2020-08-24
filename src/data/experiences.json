@@ -3,7 +3,7 @@
     "title": "Principal Software Engineer",
     "employer": "Varo, UT",
     "period": "2019-present",
-    "description": "Building front end using ReactJS, React Context, React Hooks, Apollo client, ES6, enzyme, material-ui, typescript. Building graphql backend micro-services using Apollo Server, ES6, jest, typescript. Bootstrap and architect projects and guide how to setup CI/CD. Mentor junior engineers. Integration with okta for authentication. Implement access control both in front end as well as backend(Graphql) using CASL library. Participating in Front End and Graphql architecture meetings. Integrate GraphQL servers with backend GRPC services. Building search infrastructure using elastic search"
+    "description": "Building front end using ReactJS, React Context, React Hooks, Apollo client, ES6, enzyme, material-ui, typescript. Building graphql backend micro-services using Apollo Server, ES6, jest, typescript, Kafka, GRPC, elastic search. Bootstrap and architect projects and guide how to setup CI/CD. Mentor junior engineers. Integration with okta for authentication. Implement access control both in front end as well as backend(Graphql) using CASL library. Participating in Front End and Graphql architecture meetings. Integrate GraphQL servers with backend GRPC services. Building search infrastructure using elastic search"
   },
   {
     "title": "Sr. Software Engineer",
