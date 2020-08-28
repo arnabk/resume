@@ -3,13 +3,13 @@
     "title": "Principal Software Engineer",
     "employer": "Varo, UT",
     "period": "2019-present",
-    "description": "Building front end using ReactJS, React Context, React Hooks, Apollo client, ES6, enzyme, material-ui, typescript. Building graphql backend micro-services using Apollo Server, ES6, jest, typescript, Kafka, GRPC, elastic search. Bootstrap and architect projects and guide how to setup CI/CD. Mentor junior engineers. Integration with okta for authentication. Implement access control both in front end as well as backend(Graphql) using CASL library. Participating in Front End and Graphql architecture meetings. Integrate GraphQL servers with backend GRPC services. Building search infrastructure using elastic search"
+    "description": "Building full-stack application using ReactJS, React Context, React Hooks, Apollo client, ES6, enzyme, material-ui, typescript, graphql, micro-services using Apollo Server, jest, Kafka, GRPC, elastic search, redis cache. Bootstrap and architect projects and guide how to setup CI/CD. Mentor junior engineers. Integration with okta for authentication. Implement access control both in front end as well as backend(Graphql) using CASL library. Participating in Front End and Graphql architecture meetings. Integrate GraphQL servers with backend GRPC services. Building search infrastructure using elastic search"
   },
   {
     "title": "Sr. Software Engineer",
     "employer": "SoFi, UT",
     "period": "2018-2019",
-    "description": "Building front end applications using ReactJS, React Context, React Hooks, Redux, Thunk, GraphQL (apollo client), ES6, Babel, Saga, jest, enzyme, reselect, formik, material-ui, typescript. Other than working on the main dashboard (main project), took initiative to build internal tools for dataware house team to visualize data. Take part in demo. Collaborate with devops to get Bamboo setup for UI projects. Took initiative to build bridge library for mobile team so that communication between web and mobile follows a standard agreed contract while using WebView. UI code bundle analysis for investigating dependencies causing large bundle size"
+    "description": "Building front end applications using ReactJS, React Context, React Hooks, Redux, Thunk, GraphQL (apollo client), ES6, Babel, Saga, jest, enzyme, reselect, formik, material-ui, typescript. Other than working on the main dashboard (main project), took initiative to build internal tools (full-stack application) for dataware house team to visualize data. Take part in demo. Collaborate with devops to get Bamboo setup for UI projects. Took initiative to build bridge library for mobile team so that communication between web and mobile follows a standard agreed contract while using WebView. UI code bundle analysis for investigating dependencies causing large bundle size"
   },
   {
     "title": "Sr. Software Engineer",
@@ -21,19 +21,19 @@
     "title": "Sr. Software Engineer",
     "employer": "IHS, UT",
     "period": "2013-2016",
-    "description": "Front end development using jQuery, JSF/Primefaces and back end with Weblogic, Maven, Java. Worked as expert advisor for JSF/Primefaces and jQuery. Converted manual deployment process to Jenkins CI"
+    "description": "Full-stack application development using jQuery, JSF/Primefaces, Weblogic, Maven, Java/JEE, Spring. Worked as expert advisor for JSF/Primefaces and jQuery. Converted manual deployment process to Jenkins CI"
   },
   {
     "title": "Associate Programmer",
     "employer": "LiquidHub, PA",
     "period": "2012-2013",
-    "description": "Front end development using jQuery, JSF/Facelets and back end using Jersey API, Spring, Drools, Java. Converted manual test cases to automated system using Selenium and Jenkins"
+    "description": "Full-stack application development using jQuery, JSF/Facelets, Jersey API, Spring, Drools, Java/JEE. Converted manual test cases to automated system using Selenium and Jenkins"
   },
   {
     "title": "Computer Programmer/Analyst",
     "employer": "SourceInfotech, NJ",
     "period": "2008-2011",
-    "description": "Building front end and back end application using Applet, JSF, JSP, Servlets, WAS, RAD, VB, Checkstyle, Javascript. JSF custom components development dealing with internal lifecycle of JSF framework. Developing REST based services"
+    "description": "Building full-stack application using Applet, JSF, JSP, Servlets, WAS, RAD, VB, Checkstyle, Javascript. JSF custom components development dealing with internal lifecycle of JSF framework. Developing REST based services"
   },
   {
     "title": "Software Engineer",
