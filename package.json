@@ -25,7 +25,7 @@
     "convert2pdf": "node scripts/sejdaapi.js"
   },
   "devDependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "convertapi": "^1.2.0",
     "puppeteer": "^1.13.0"
   },
